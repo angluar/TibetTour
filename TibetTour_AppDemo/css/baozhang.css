@@ -1,0 +1,132 @@
+.baozhangfangkuang{
+	width:100%;
+	height:10rem;
+	border-radius:20px;
+	background:#666;
+}
+.baozhangfangkuangnav{
+	width:80%;
+	height:4rem;
+	line-height:4rem;
+	margin:0 auto;
+	text-align: center;
+}
+.bazhanglianjie{
+	width:50%;
+	height:4rem;
+	color:#fff;
+	display: block;
+	float:left;
+}
+.baozhangonline{
+	display: block;
+	width:50%;
+	margin:0 auto;
+	height:2px;
+	margin-top:-12px;
+	background:#fff;
+}
+.chepaihao{
+	color:#fff;
+	margin:2rem auto;
+	height:3rem;
+	width:100%;
+	text-align: center;
+}
+.chepaihao h1{
+	font-size: 1.5rem;
+	letter-spacing:0.1rem;
+}
+.carcar{
+	height:27rem;
+	width:100%;
+}
+.cars{
+	width:90%;
+	height:30%;
+	margin:1rem auto;
+}
+.chejianjie{
+	width:60%;
+	height:4rem;
+	margin:-3rem auto;
+	text-align: center;
+}
+.chejianjie2{
+	width:80%;
+	height:1.5rem;
+	margin:0 auto;
+	text-align: center;
+}
+.qicheditu2:active{
+	color:#fff;
+	background:#ccc;
+}
+.qicheditu2 a:active{
+	color:#fff;
+}
+.chejianjie h3{
+	color:#666;
+	padding-top:1rem;
+	font-size: 1.2rem;
+}
+.qicheditu{
+	width:100%;
+	height:2rem;
+	background:#fff;
+	border-radius: 50px;
+	margin:0.5rem auto;
+	box-shadow:0 2px 10px 2px #ccc;
+	position: relative;
+}
+.qicheditu2{
+	width:100%;
+	height:2.2rem;
+	background:#fff;
+	border-radius: 50px;
+	line-height:2.2rem;
+	margin:2rem auto;
+	box-shadow:0 2px 10px 2px #ccc;
+	position: relative;
+}
+.qicheditu2 a{
+	color:#666; 
+}
+.qicheditu ul,.qicheditu2 ul{
+	list-style: none;
+	display: block;
+	position: absolute;
+	top:-1rem;
+	width:114%;
+	left:-2rem;
+}
+.qicheditu li,.qicheditu2 li{
+	padding-left: 0;
+	float: left;
+	width:33%;
+	font-size: 0.8rem;;
+	height:2rem;
+	line-height: 2rem;
+	text-align: center;
+	color:#999;
+}
+.yiliaotaitou{
+	width:80%;
+	height:4rem;
+	margin: 0.5rem auto;
+}
+.fuwuleft {
+	float: left;
+	
+}
+.fuwuright{
+	float:right;
+	width:62%;
+	text-align:left;
+	margin: 0 auto;
+	line-height:1.5rem;
+}
+.fuwuright p{
+	font-size: 1rem;
+	color:#fff;
+}

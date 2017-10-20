@@ -1,0 +1,250 @@
+.mainbox{
+	background:#fff;
+	margin:20px auto;
+	width:90%;
+	height:30rem;
+	box-shadow:0 0 10px 2px #ccc;
+	position: relative;
+}
+.mainbox2{
+	background:#fff;
+	margin:20px auto;
+	width:90%;
+	height:35rem;
+	box-shadow:0 0 10px 2px #ccc;
+}
+.topnav{
+	width:100%;
+	
+}
+.navaa{
+	display: block;
+	float: left;
+	line-height:60px;
+	text-align: center;
+	width:33%;
+	font-size:0.9rem;
+	height:60px;
+	color:#999;
+}
+.navaaed{
+	box-shadow:0 0 5px 2px #ccc inset;
+}
+.bangding{
+	position: relative;
+	width:100%;
+	height:100px;
+	padding-top:30px;
+	top:16%;
+	left:8%;
+}
+.yibangding{
+	position: absolute;
+	bottom: -3.3rem;
+	font-size: 0.7rem;
+	color:#666;
+	right: 4rem;
+}
+.bangdingleft{
+	position:absolute;
+	
+}
+.bangdingright{
+	height:60px;
+	width:60px;
+	border-radius: 50px;
+	background:#999;
+	right:16%;
+	top:24%;
+	position: absolute;
+}
+.xian{
+	width:100%;
+	height:20px;
+	background:#f7f7f7;
+	margin-top:28%;
+}
+.shequ > p{
+	margin:20px;
+	display: inline;
+	float: left;
+}
+.shequ > button{
+	float: right;
+	margin:16px 30px;
+	height:24px;
+	line-height: 10px;
+	
+}
+.fangkuai,.huiyuan{
+	clear: both;
+	width: 100%;
+	margin-top:10px;
+	margin-left:3px;
+}
+.huiyuan{
+	margin:0 20px;
+	color:#666;
+}
+.xiaofangkuai{	
+	margin:auto;
+	margin:8px;
+	width:43%;
+	height:60px;
+	line-height:60px;
+	background: #f7f7f7;
+	border-radius: 10px;
+	text-align: center;
+	float: left;
+	color:#666;
+	font-size:0.9rem;
+}
+.xdingdan{
+	color:#999;
+	list-style: none;
+	display: block;
+	float:left;
+	width:33%;
+	text-align:center;
+	height:1.5rem;
+	font-size:0.8rem;
+	margin-top:1.7rem;
+}
+.liugongge{
+	width:110%;
+	margin-left: -36px;
+	height:100px;
+}
+.xdingdandan{
+	background:#999;
+	height:1.5rem;
+	color:#fff;
+}
+.xdingdan:active{
+	background:#999;
+	height:1.5rem;
+	color:#fff;
+}
+.dingdanxinxi{
+	width:92%;
+	height:7.8rem;
+	margin:14px;
+	background: #f7f7f7;
+	border-radius:10px;
+	padding:0.6rem;
+	position:relative;
+}
+.fangkuang{
+	
+	height:20rem;
+}
+.fangkuang2{
+	overflow: auto;
+	height:20rem;
+}
+.dingdanxinxi > h5{
+	color:#666;
+}
+
+.prece{
+	margin-top:1rem;
+	color:#666;
+}
+.dingdanxinxileft{
+	float:left;
+}
+.dingdanxinxileft p{
+	font-size: 0.7rem;
+	height:0.5rem;
+}
+
+.dingdanxinxiright{
+	right:3%;
+	position:absolute;
+	text-align: right;
+}
+.dingdanxinxiright p{
+	font-size: 0.7rem;
+	height:0.5rem;
+}
+.dingdanxinxiright h6{
+	color:#888;
+}
+.dingdanxinxiright span{
+	color:#888;
+	display: inline-block;
+	padding-top:2.8rem;
+	padding-right:0.4rem;
+	font-size: 0.7rem;
+}
+.dingdanxinxiright span:active{
+	color:#fff;
+}
+.dingdanbutton{
+	margin-top:2.6rem;
+	height:1.5rem;
+	width:6rem;
+	text-align: center;
+	line-height: 0.7rem;
+}
+.lvyoucard{
+	position:absolute;
+	width:84%;
+	height:7.8rem;
+	top:0;
+	background:#666;
+	box-shadow:0 4px 20px 4px #ccc;
+	border-radius: 15px;
+	color:#fff;
+}
+.lvyoucard h1{
+	font-size:1.6rem;
+	font-weight:500;
+	padding:0.8rem 0 0.2rem 0.8rem;
+}
+.lvyoucard h2{
+	font-size:1rem;
+	padding:0 0.8rem;
+}
+.lvyoucard h3{
+	float: right;
+	padding:0.8rem;
+	font-size:1.2rem;
+}
+.quanyi{
+	margin-top:1.5rem;
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+	
+}
+.quanyi span{
+	font-size: 4rem;
+	float:left;
+	margin:0.5rem 0 0 2rem;
+	color:#999;
+}
+.quanyi p{
+	font-size:1rem;
+	letter-spacing: 0.1rem;
+	line-height:1.8rem;
+	padding-top:0.5rem;
+	margin:0.8rem 1rem;
+	font-weight: 500;
+}
+.phonenumber{
+	float: right;
+	text-align: right;
+	line-height: 0.8rem;
+	padding:4rem 1rem;
+	letter-spacing: 0.1rem;
+	color:#ccc;
+}
+.img-ditu{
+	width:100%;
+	height:40rem;
+	background:url(../fonts/img_ditu.jpg) no-repeat;
+	background-size:cover;
+	overflow:auto;
+	position:fixed;
+}

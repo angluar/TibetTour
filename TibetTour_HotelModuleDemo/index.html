@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>西藏旅游</title>
+		<!--页面在移动设备上不允许用户缩放，页面宽度强制等于设备宽度-->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<!--全局清零-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css">
+	</head>
+
+	<body>
+		<section class="main">
+			<!--滚动banner-->
+			<div class="mui-scroll">
+				<div class="mui-slider">
+					<div class="mui-slider-group mui-slider-loop">
+						<div class="mui-slider-item mui-slider-item-duplicate">
+							<a href="#"><img src="fonts/BANNER3.jpg" /></a>
+						</div>
+						<div class="mui-slider-item">
+							<a href="#"><img src="fonts/BANNER1.jpg" /></a>
+						</div>
+						<div class="mui-slider-item">
+							<a href="#"><img src="fonts/BANNER2.jpg" /></a>
+						</div>
+						<div class="mui-slider-item">
+							<a href="#"><img src="fonts/BANNER3.jpg" /></a>
+						</div>
+						<div class="mui-slider-item mui-slider-item-duplicate">
+							<a href="#"><img src="fonts/BANNER1.jpg" /></a>
+						</div>
+					</div>
+					<div class="mui-slider-indicator">
+						<div class="mui-indicator mui-active"></div>
+						<div class="mui-indicator"></div>
+						<div class="mui-indicator"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="book-hotel">
+				<div class="my-position">
+					<span class="iconfont icon-icon book-icon"></span>
+					<a>拉萨市城关区<span>我的位置</span></a>
+					<a class="book-a-right" style="color:#ccc;">></a>
+				</div>
+				<div class="book-line"></div>
+				<div class="book-time" >
+					<div class="book-time-left">
+						<div class="book-date-left">
+							<span class="iconfont icon-1"></span>
+						</div>
+						<div class="book-date-right">
+							<a>04月07日<span>今天入住</span></a>
+							<a>04月08日<span>明天离店</span></a>
+						</div>
+					</div>
+					<div class="book-time-right">
+						<a>共一晚</a>
+						<span style="color:#ccc;font-size:24px;">><span>
+				</div>
+				</div>
+			<div class="clearfloat"></div>
+			<div class="book-line"></div>
+			
+			<div class="hotel-search" onclick="location.href='hotel.html'" >
+				<span class="iconfont icon-msnui-find book-icon" style="font-size:18px;" ></span>
+						<a ><span>关键字/位置/酒店名称</span></a>
+						<a class="book-a-right" style="color:#ccc;">></a>
+					</div>
+					<div class="book-line"></div>
+					<div class="book-container">
+						<div class="book-button" onclick="location.href='hotel.html'" >预订酒店</div>
+						<div class="book-button-shadow"></div>
+					</div>
+					<div class="book-line" style="background:#ccc"></div>
+					<div class="book-line" style="height:18px;background:#e6e6e6"></div>
+				</div>
+				<div class="book-function">
+					<a class="function-tab-item">
+						<img class="function-tab-item-icon" style="height:34px; width:40px" src="fonts/fruit.png">
+						<span class="icon-lebel">特产</span>
+					</a>
+					<a class="function-tab-item">
+						<img class="function-tab-item-icon" style="height:34px; width:34px" src="fonts/eat.png">
+						<span class="icon-lebel">餐饮</span>
+					</a>
+					<a class="function-tab-item">
+						<img class="function-tab-item-icon" style="height:34px; width:39px;"  src="fonts/car.png">
+						<span class="icon-lebel">约车</span>
+					</a>
+					<a class="function-tab-item">
+						<img class="function-tab-item-icon" style="height:30px; width:40px;"  src="fonts/men.png">
+						<span class="icon-lebel">导游</span>
+					</a>
+					<a class="function-tab-item">
+						<img class="function-tab-item-icon" style="height:34px; width:40px;"  src="fonts/door.png">
+						<span class="icon-lebel">景区门票</span>
+					</a>
+					<a class="function-tab-item">
+						<img class="function-tab-item-icon" style="height:34px; width:40px;"  src="fonts/static.png">
+						<span class="icon-lebel">索道票</span>
+					</a>
+					<a class="function-tab-item">
+						<img class="function-tab-item-icon" style="height:34px; width:36px;"  src="fonts/view.png">
+						<span class="icon-lebel">观光车票</span>
+					</a>5
+					<a class="function-tab-item">
+						<img class="function-tab-item-icon" style="height:34px; width:36px;"  src="fonts/write.png">
+						<span class="icon-lebel">温泉票</span>
+					</a>
+				</div>
+		</section>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active" id="jingqu">
+				<span class="mui-icon iconfont icon-hot" style="font-size:22px;"></span>
+				<span class="mui-tab-label">景区</span>
+			</a>
+			<a class="mui-tab-item" id="lvgou">
+				<span class="mui-icon iconfont icon-lvyou"></span>
+				<span class="mui-tab-label">旅购</span>
+			</a>
+			<a class="mui-tab-item" id="daoyou">
+				<span class="mui-icon iconfont icon-jingdiandaolan"></span>
+				<span class="mui-tab-label">导游</span>
+			</a>
+			<a class="mui-tab-item" id="baozhang">
+				<span class="mui-icon iconfont icon-baozhang"></span>
+				<span class="mui-tab-label">保障</span>
+			</a>
+			<a class="mui-tab-item" id="index">
+				<span class="mui-icon iconfont icon-geren" style="font-size:22px;"></span>
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		<script type="text/javascript" charset="utf-8">
+			var slider = mui('.mui-slider');
+			slider.slider({
+				interval: 1800
+			});
+			
+           
+    
+		</script>
+	</body>
+
+</html>

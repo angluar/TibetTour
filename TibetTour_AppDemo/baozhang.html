@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<!--iconfont-->
+		<link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css">
+		<!--页面css结构-->
+		<link rel="stylesheet" type="text/css" href="css/baozhang.css">
+	
+	</head>
+
+	<body>
+		<!-- 主页面容器 -->
+		<div class="mui-inner-wrap">
+
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" id="jingqu">
+					<span class="mui-icon iconfont icon-lvyou"></span>
+					<span class="mui-tab-label">景区</span>
+				</a>
+				<a class="mui-tab-item" id="lvgou">
+					<span class="mui-icon iconfont icon-hot"></span>
+					<span class="mui-tab-label">旅购</span>
+				</a>
+				<a class="mui-tab-item" id="daoyou">
+					<span class="mui-icon iconfont icon-jingdiandaolan"></span>
+					<span class="mui-tab-label">导游</span>
+				</a>
+				<a class="mui-tab-item mui-active" id="baozhang">
+					<span class="mui-icon iconfont icon-baozhang"></span>
+					<span class="mui-tab-label">保障</span>
+				</a>
+				<a class="mui-tab-item" id="index">
+					<span class="mui-icon iconfont icon-ciwei" style="margin-right:46%;font-size: 1.2rem;"></span>
+					<span class="mui-tab-label">我的</span>
+				</a>
+			</nav>
+			<!-- 主页面内容容器 -->
+			<div class="mui-content mui-scroll-wrapper">
+				<div class="mui-scroll">
+					<!-- 主界面具体展示内容 --> 
+					<div class="baozhangfangkuang">
+						<div class="baozhangfangkuangnav">
+							<a class="bazhanglianjie">车辆保障服务<span class="baozhangonline"></span></a>
+							<a class="bazhanglianjie" id="gaoyuanbaozhang">高原医疗服务</a>
+						</div>
+						<div class="chepaihao">
+							<h1>沪A·686EJ</h1>
+						</div>
+					</div>
+					<div class="carcar">
+						<div class="cars">
+						<span class="mui-icon iconfont icon-cheliangxinxi" style="text-align:center;color:#333;font-size:14rem;"></span>
+						<div class="chejianjie">
+							<h3>已绑定</h3>
+							<p>一汽·大众·速腾  三用  紧凑</p>
+							<span class="mui-icon iconfont icon-dazhong1193378easyiconnet" style="text-align:center;color:#333;font-size:2rem;"></span>
+							<div class="qicheditu">
+								<ul>
+									<li style="border-right:1px solid #ccc">修理站</li>
+									<li style="border-right:1px solid #ccc">加油站</li>
+									<li>停车场</li>
+								</ul>
+							</div>
+						</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mui-off-canvas-backdrop"></div>
+		</div>
+		<script type="text/javascript" charset="utf-8">
+			mui.init({
+				preloadPages:[{
+					url:"jingqu.html",
+					id:"jingqu.html",
+					url:"lvgou.html",
+					id:"lvgou.html",
+					url:"daoyou.html",
+					id:"daoyou.html",
+					url:"baozhang.html",
+					id:"baozhang.html",
+					url:"index.html",
+					id:"index.html",
+					extras:{name:'lin',age:18}
+				}]
+			});
+			mui.plusReady(function(){
+				var jingqu=document.getElementById('jingqu'),
+				lvgou=document.getElementById('lvgou'),
+				daoyou=document.getElementById('daoyou'),
+				baozhang=document.getElementById('baozhang'),
+				gaoyuanbaozhang=document.getElementById('gaoyuanbaozhang'),
+				index=document.getElementById('index');
+				jingqu.addEventListener('tap',function(){
+					mui.openWindow({
+						url:'jingqu.html',
+						id:'jingqu.html',
+			
+						show:{
+      						aniShow:"slide-in-bottom",
+      						duration:"200"		
+						}
+					});
+				});
+				lvgou.addEventListener('tap',function(){
+					mui.openWindow({
+						url:'lvgou.html',
+						id:'lvgou.html',
+				
+						show:{
+      						aniShow:"slide-in-bottom",
+      						duration:"200"		
+						}
+					});
+				});
+				daoyou.addEventListener('tap',function(){
+					mui.openWindow({
+						url:'daoyou.html',
+						id:'daoyou.html',
+			
+						show:{
+      						aniShow:"slide-in-bottom",
+      						duration:"200"		
+						}
+					});
+				});
+				baozhang.addEventListener('tap',function(){
+					mui.openWindow({
+						url:'baozhang.html',
+						id:'baozhang.html',
+				
+						show:{
+      						aniShow:"slide-in-bottom",
+      						duration:"200"		
+						}
+					});
+				});
+				index.addEventListener('tap',function(){
+					mui.openWindow({
+						url:'index.html',
+						id:'index.html', 
+					
+						show:{
+      						aniShow:"slide-in-bottom",
+      						duration:"200"		
+						}
+					});
+				});
+				gaoyuanbaozhang.addEventListener('tap',function(){
+					mui.openWindow({
+						url:'baozhang2.html',
+						id:'baozhang2.html', 
+						show:{
+      						aniShow:"fade-in",
+      						 duration:"500"
+						}
+					});
+				});
+			});
+			
+		</script>
+	</body>
+
+</html>

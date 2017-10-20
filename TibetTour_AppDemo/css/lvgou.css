@@ -1,0 +1,168 @@
+.lvgoukuai{
+	width:100%;
+	height:34rem;
+	overflow: scroll;
+}
+.lvgoukuai2{
+	width:100%;
+	height:30rem;
+	overflow: scroll;
+}
+.kuai1{
+	width:100%;
+	height:33%;
+	background:#999;
+	position: relative;
+}
+.kuai2{
+	width:100%;
+	height:34%;
+	background:#666;
+}
+.kuai3{
+	width:100%;
+	height:34%;
+	background:#999;
+}
+.jiudian1{
+	display:block;
+	float: right;
+	font-size: 8rem;
+	margin-top:3.5rem;
+	color:#666;
+	
+}
+.jiudian0{
+	display:block;
+	float: right;
+	font-size: 8rem;
+	margin-top:1.8rem;
+	color:#666;
+}
+.jiudian00{
+	font-size: 2rem;
+	float:right;
+	color:#666;
+	right:5rem;
+	top:1.5rem;
+	font-weight: 700;
+	position:absolute;
+}
+.jiudian2{
+	font-size: 2rem;
+	float:right;
+	color:#666;
+	right:4.5rem;
+	top:2rem;
+	font-weight: 700;
+	position:absolute;
+}
+.jiudian3{
+	font-size: 2rem;
+	float:right;
+	color:#666;
+	right:4.5rem;
+	bottom:8.5rem;
+	font-weight: 700;
+	position:absolute;
+}
+.jiudian4{
+	display:block;
+	float: left;
+	font-size: 6rem;
+	margin-top:5rem;
+	color:#999;
+}
+.jiudian5{
+	font-size: 2rem;
+	float:right;
+	color:#999;
+	left:4.5rem;
+	top:13.5rem;
+	font-weight: 700;
+	position:absolute;
+}
+.jingqufangkuaileft{
+	width:54%;
+	height:7rem;
+	border-radius:10px;
+	background:#fff;
+	top:2rem;
+	position:absolute;
+	box-shadow:0 0 10px 2px #888;
+}
+.jingqufangkuairight{
+	width:54%;
+	height:7rem;
+	border-radius:10px;
+	background:#fff;
+	top:13.5rem;
+	right:0;
+	position:absolute;
+	box-shadow:0 0 10px 2px #555;
+}
+.jingqufangkuaileft2{
+	width:54%;
+	height:7rem;
+	border-radius:10px;
+	background:#fff;
+	bottom:2.5rem;
+	position:absolute;
+	box-shadow:0 0 10px 2px #888;
+}
+.jiudiannav{
+	width:50%;
+	height:3.5rem;
+	border:1px solid #ccc;
+	color:#666;
+	z-index: 100;
+	display: block;
+	float: left;
+	line-height:3.5rem;
+	text-align: center;
+}
+.datetime{
+	width:100%;
+	height:7rem;
+	
+}
+.riqishangcheng{
+	width:100%;
+	height:1.5rem;
+}
+.riqileft{
+	width: 17%;
+	float:left;
+	height:3rem;
+	text-align:right;
+	line-height:4rem;
+	font-size:0.6rem;
+	color:#999;
+}
+.riqiright{
+	display: block;
+	width:80%;
+	padding:0.5rem;
+	padding-top:1rem;
+	float:left;
+	height:3rem;
+}
+
+.riqilefts{
+	clear: both;
+	width: 17%;
+	float:left;
+	text-align:right;
+	line-height:3rem;
+	height:3rem;
+	font-size:0.6rem;
+	color:#999;
+}
+.riqiright p{
+	font-size: 0.7rem;
+	line-height:0.5rem;
+}
+.riqixiacheng{
+	
+	margin-top:0;
+}

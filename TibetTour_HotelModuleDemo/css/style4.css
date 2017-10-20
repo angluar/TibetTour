@@ -1,0 +1,260 @@
+.bg{	
+	background:url(../fonts/zebg.png);
+	width:100%;
+	height:12rem;
+	background-size: cover;
+}
+.container2{
+	position:relative;
+	height:30rem;
+	background:#fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px 2px #CCCCCC;
+	width:100%;
+	z-index: 10;
+	overflow-y:auto;
+	width:100%;
+}
+.container{
+	position:relative;
+	height:35rem;
+	background:#fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px 2px #CCCCCC;
+	width:100%;
+	z-index: 10;
+	overflow-y:auto;
+	width:100%;
+}
+.book-top-right img{
+	position: absolute;
+	right:0;
+	top:0;
+	height:44px;
+	width:44px;
+}
+.book-top-left p{
+	font-size:24px;
+	padding:16px 0 10px 16px ;
+	color:#262731;
+	font-weight: bold;
+}
+.book-top-left span{
+	color:#999;
+	margin-left:16px;
+}
+.book-name{
+	margin-left:16px;
+	margin-top:24px;
+	font-size: 16px;
+	color:#999;
+	height:4rem;
+}
+.book-name p{
+	line-height:10px;
+	float:left;
+}
+.book-name span{
+	margin-left:6px;
+	color:#262731;
+}
+.book-line{
+	background:#d8d8d8;
+	height:1px;
+	width:100%;
+}
+.book-detail{
+	margin:10px 0 10px 16px;
+}
+.book-detail p{
+	color:#999999;
+	float: left;
+	width:100%;
+	margin-top:10px;
+}
+.book-detail span{
+	color:#666666;
+}
+.clearfloar{
+	clear: both;
+}
+.tip{
+	margin-top:30px;
+	margin-bottom: 10px;
+}
+.tip-left{
+	margin-top:10px;
+	float:left;
+	width:10%;
+}
+.tip-right{
+	float:left;
+	width:80%;
+	font-size: 13px;
+	line-height:24px;
+	margin-right:10%;
+}
+.block{
+	height:4rem;
+	width:100%;
+	background:#FFF;
+	box-shadow:0 -2px 2px 2px #efefef;
+	border-radius: 4px; 
+	position:absolute;
+	bottom:0;
+	z-index: 20;
+}
+.block2{
+	height:4rem;
+	width:100%;
+	background:#FFF;
+	box-shadow:0 -2px 2px 2px #efefef;
+	border-radius: 4px; 
+	position:absolute;
+	bottom:0;
+	z-index: 20;
+}
+.block2-button{
+	width:240px;
+	height:50px;
+	margin:10px auto;
+	position:relative;
+}
+.block2-button:after{
+	content:"";
+	position:absolute;
+	width:220px;
+	height:40px;
+	background:url(../fonts/shadow3.png);
+	background-size: cover;
+	top:6px;
+	left:20px;
+	z-index:-2;
+}
+.block2-button img{
+	width:260px;
+	height:50px;
+}
+.block-right-button{
+	height:2.2rem;
+	width:100px;
+	background:#ffbc24;
+	float:right;
+	margin-right: 24px;
+	border-radius: 8px;
+	line-height: 2.2rem;
+	text-align: center;
+	letter-spacing: 1px;
+	color:#fff;
+	position: relative;
+}
+.block-right-button:after{
+	content:"";
+	position:absolute;
+	background:url(../fonts/shadow2.png);
+	background-size: cover;
+	bottom:-8px;
+	right:0;
+	left:0;
+	opacity: .5;
+	height:2.2rem;
+	width:100px;
+	z-index:-1;
+}
+.block-right{
+	float:right;
+	margin-top:12px;
+	margin-right:6px;
+}
+.block-left{
+	margin:20px;
+	font-size: 30px;
+	color:#ff372f;
+	float:left;
+}
+.block-left span{
+	font-size: 14px;
+	margin-left: 6px;
+}
+.write{
+	width:100%;
+	height:2rem;
+}
+.book-OK{
+	width:100px;
+	height:10rem;
+	margin:1.5rem auto 0;
+	position:relative;
+}
+.book-annimation{
+	background:url(../fonts/OK.png);
+	width:100px;
+	height:90px;
+	background-size: cover;
+}
+.book-OK p{
+	font-size: 16px;
+	margin-top:36px;
+}
+.book-OK span{
+	color:#ff372f;
+	margin-left:10px;
+	font-weight: 700;
+}
+.book-OK:before{
+	content:"恭喜您预定成功";
+	position:absolute;
+	bottom:44px;
+	width:140%;
+	font-size:20px;
+	text-align: center;
+	left:-20px;
+}
+.detail{
+	height:3rem;
+	line-height: 3rem;
+	margin-left:30px;
+	color:#262731;
+	letter-spacing: 1px;
+}
+.detail-right{
+	float:right;
+	margin-right:30px;
+}
+.pay{
+	width:84%;
+	margin:16px auto;
+}
+.pay-title{
+	color:#666;
+	font-weight: bold;
+}
+.pay-left{
+	margin-top:20px;
+	float:left;
+}
+.pay-right{
+	float:right;
+}
+.pay-left img{
+	width:50px;
+	height:50px;
+	float: left;
+}
+.pay-left p{
+	float:left;
+	padding-left:14px;
+	font-size: 18px;
+	color:#262731;
+	line-height:24px;
+}
+.pay-left span{
+	color:#999;
+	font-size: 14px;
+}
+.pay-right img{
+	width:20px;
+	height:20px;
+	float:right;
+	margin-top:30px;
+}

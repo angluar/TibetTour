@@ -1,0 +1,147 @@
+{
+  "index.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/mine.css",
+      "css/iconfont/iconfont.css",
+      "css/iconfont/iconfont.woff"
+    ],
+    "refer": [
+      "daoyou.html",
+      "baozhang.html",
+      "jingqu.html",
+      "lvgou.html",
+      "index2.html",
+      "index3.html"
+    ]
+  },
+  "jingqu.html": {
+    "resources": [
+      "css/mine.css",
+      "css/iconfont/iconfont.css",
+      "css/iconfont/iconfont.woff",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "fonts/BANNER1.jpg",
+      "fonts/BANNER3.jpg",
+      "fonts/BANNER2.jpg",
+      "css/jingqu.css",
+      "fonts/img1.jpg"
+    ],
+    "refer": [
+      "lvgou.html",
+      "daoyou.html",
+      "baozhang.html",
+      "index.html"
+    ]
+  },
+  "lvgou.html": {
+    "refer": [
+      "daoyou.html",
+      "jingqu.html",
+      "baozhang.html",
+      "index.html",
+      "lvgou1.html"
+    ],
+    "resources": [
+      "css/mine.css",
+      "css/iconfont/iconfont.css",
+      "css/iconfont/iconfont.woff",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/lvgou.css"
+    ]
+  },
+  "daoyou.html": {
+    "resources": [
+      "css/iconfont/iconfont.woff",
+      "css/mine.css",
+      "css/iconfont/iconfont.css",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "fonts/img_ditu.jpg"
+    ],
+    "refer": [
+      "lvgou.html",
+      "jingqu.html",
+      "baozhang.html",
+      "index.html"
+    ]
+  },
+  "baozhang.html": {
+    "resources": [
+      "css/iconfont/iconfont.woff",
+      "css/mine.css",
+      "css/iconfont/iconfont.css",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/baozhang.css"
+    ],
+    "refer": [
+      "daoyou.html",
+      "lvgou.html",
+      "jingqu.html",
+      "index.html",
+      "baozhang2.html"
+    ]
+  },
+  "index2.html": {
+    "refer": [
+      "baozhang.html",
+      "jingqu.html",
+      "index.html",
+      "daoyou.html",
+      "index3.html",
+      "lvgou.html"
+    ],
+    "resources": [
+      "css/mine.css",
+      "css/iconfont/iconfont.css",
+      "css/iconfont/iconfont.woff",
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ]
+  },
+  "index3.html": {
+    "refer": [
+      "index2.html",
+      "index.html",
+      "baozhang.html",
+      "lvgou.html",
+      "daoyou.html"
+    ],
+    "resources": [
+      "css/mine.css",
+      "css/iconfont/iconfont.css",
+      "css/iconfont/iconfont.woff",
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ]
+  },
+  "baozhang2.html": {
+    "resources": [
+      "css/iconfont/iconfont.css",
+      "css/iconfont/iconfont.woff",
+      "css/baozhang.css",
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "baozhang.html",
+      "daoyou.html"
+    ]
+  },
+  "lvgou1.html": {
+    "resources": [
+      "css/iconfont/iconfont.css",
+      "css/iconfont/iconfont.woff",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/lvgou.css"
+    ],
+    "refer": [
+      "lvgou.html"
+    ]
+  }
+}

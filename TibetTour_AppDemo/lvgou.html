@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<!--iconfont-->
+		<link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css">
+		<!--页面css结构-->
+		<link rel="stylesheet" type="text/css" href="css/lvgou.css">
+	
+	</head>
+
+	<body>
+		<!-- 主页面容器 -->
+		<div class="mui-inner-wrap">
+
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" id="jingqu">
+					<span class="mui-icon iconfont icon-lvyou"></span>
+					<span class="mui-tab-label">景区</span>
+				</a>
+				<a class="mui-tab-item mui-active" id="lvgou">
+					<span class="mui-icon iconfont icon-hot"></span>
+					<span class="mui-tab-label">旅购</span>
+				</a>
+				<a class="mui-tab-item" id="daoyou">
+					<span class="mui-icon iconfont icon-jingdiandaolan"></span>
+					<span class="mui-tab-label">导游</span>
+				</a>
+				<a class="mui-tab-item" id="baozhang">
+					<span class="mui-icon iconfont icon-baozhang"></span>
+					<span class="mui-tab-label">保障</span>
+				</a>
+				<a class="mui-tab-item" id="index">
+					<span class="mui-icon iconfont icon-ciwei" style="margin-right:46%;font-size: 1.2rem;"></span>
+					<span class="mui-tab-label">我的</span>
+				</a>
+			</nav>
+			<!-- 主页面内容容器 -->
+			<div class="mui-content mui-scroll-wrapper">
+				<div class="mui-scroll">
+					<!-- 主界面具体展示内容 --> 
+					<div class="lvgoukuai">
+						<div class="kuai1">
+							<span class="mui-icon iconfont icon-jiudian jiudian1"></span>
+							<span class="mui-tab-label jiudian2">酒店</span>
+							<div class="jingqufangkuaileft">
+								<a class="jiudiannav" id="minsu">民宿</a>
+								<a class="jiudiannav"  id="minsu">星级</a>
+								<a class="jiudiannav"  id="minsu">商务</a>
+								<a class="jiudiannav"  id="minsu">主题</a>
+							</div>
+						</div>
+						<div class="kuai2">
+							<span class="mui-icon iconfont icon-jingqu jiudian4"></span>
+							<span class="mui-tab-label jiudian5">度假</span>
+							<div class="jingqufangkuairight">
+								<a class="jiudiannav"  id="minsu">特产</a>
+								<a class="jiudiannav"  id="minsu">餐饮</a>
+								<a class="jiudiannav"  id="minsu">约车</a>
+								<a class="jiudiannav"  id="minsu">导游</a>
+							</div>
+						</div>
+						<div class="kuai3">
+							<span class="mui-icon iconfont icon-jingdian2 jiudian1"></span>
+							<span class="mui-tab-label jiudian3">票务</span>
+							<div class="jingqufangkuaileft2">
+								<a class="jiudiannav"  id="minsu">景区门票</a>
+								<a class="jiudiannav"  id="minsu">索道滑票</a>
+								<a class="jiudiannav"  id="minsu">观光车票</a>
+								<a class="jiudiannav"  id="minsu">温泉套票</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mui-off-canvas-backdrop"></div>
+		</div>
+		<script type="text/javascript" charset="utf-8">
+			mui.init({
+				preloadPages:[{
+					url:"jingqu.html",
+					id:"jingqu.html",
+					url:"lvgou.html",
+					id:"lvgou.html",
+					url:"daoyou.html",
+					id:"daoyou.html",
+					url:"baozhang.html",
+					id:"baozhang.html",
+					url:"index.html",
+					id:"index.html",
+					extras:{name:'lin',age:18}
+				}]
+			});
+			mui.plusReady(function(){
+				var jingqu=document.getElementById('jingqu'),
+				lvgou=document.getElementById('lvgou'),
+				daoyou=document.getElementById('daoyou'),
+				baozhang=document.getElementById('baozhang'),
+				minsu=document.getElementById('minsu'),
+				index=document.getElementById('index');
+				jingqu.addEventListener('tap',function(){
+					mui.openWindow({
+						url:'jingqu.html',
+						id:'jingqu.html',
+				
+						show:{
+      						aniShow:"slide-in-bottom",
+      						duration:"200"	
+						}
+					});
+				});
+				lvgou.addEventListener('tap',function(){
+					mui.openWindow({
+						url:'lvgou.html',
+						id:'lvgou.html',
+				
+						show:{
+      						aniShow:"slide-in-bottom",
+      						duration:"200"		
+						}
+					});
+				});
+				daoyou.addEventListener('tap',function(){
+					mui.openWindow({
+						url:'daoyou.html',
+						id:'daoyou.html',
+				
+						show:{
+      						aniShow:"slide-in-bottom",
+      						duration:"200"		
+						}
+					});
+				});
+				baozhang.addEventListener('tap',function(){
+					mui.openWindow({
+						url:'baozhang.html',
+						id:'baozhang.html',
+			
+						show:{
+      						aniShow:"slide-in-bottom",
+      						duration:"200"		
+						}
+					});
+				});
+				index.addEventListener('tap',function(){
+					mui.openWindow({
+						url:'index.html',
+						id:'index.html',
+				
+						show:{
+      						aniShow:"slide-in-bottom",
+      						duration:"200"		
+						}
+					});
+				});
+				minsu.addEventListener('tap',function(){
+					mui.openWindow({
+						url:'lvgou1.html',
+						id:'lvgou1.html',
+			
+						show:{
+      						aniShow:"fade-in",
+      						duration:"600"		
+						}
+					});
+				});
+			});
+			
+		</script>
+	</body>
+
+</html>

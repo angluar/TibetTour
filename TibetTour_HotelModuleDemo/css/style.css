@@ -1,0 +1,179 @@
+section{
+	overflow-y:scroll;
+	width:100%;
+	margin-bottom:80px;
+}
+.clearfloat{
+	clear:both;
+}
+.book-hotel{
+	margin-top:170px;
+}
+.book-icon{
+	font-size:20px;
+	color:#999999;
+	margin-right:10px;
+}
+.book-a-right{
+	float:right;
+	font-size:24px;
+
+}
+.book-line{
+	background:#d8d8d8;
+	height:1px;
+	width:100%;
+}
+.my-position{
+	width:90%;
+	height:44px;
+	line-height:40px;
+	font-size:18px;
+	margin:0 auto;
+}
+.hotel-search{
+	width:90%;
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	margin:0 auto;
+}
+.book-time{
+	width:90%;
+	height:76px;
+	line-height:28px;
+	font-size:18px;
+	margin:0 auto;
+}
+.book-container{
+	width:90%;
+	height:60px;
+	margin:0 auto;
+	position:relative;
+}
+.book-button{
+	width:90%;
+	height:40px;
+	border-radius: 6px;
+	background:#f8bc23;
+	margin:10px auto;
+	text-align: center;
+	line-height:40px;
+	color:#fff;
+	
+}
+.book-button-shadow{
+	background:url(../fonts/shadow.png);
+	opacity:.8;
+	background-size: cover;
+	width:84%;
+	height:40px;
+	top:0;
+	left:0;
+	right:0;
+	z-index: -1;
+	position:absolute;
+	margin:14px auto;
+	
+}
+.book-time-left{
+	float:left;
+	width:70%;
+}
+.book-date-left{
+	float:left;
+	margin:24px 6px 0 0;
+	width:30px;
+}
+.book-date-left span{
+	color:#999999;
+}
+.book-date-right{
+	margin:10px 0px;
+}
+.book-date-right a{
+	display: block;	
+	color:#262731;
+}
+.book-date-right a span{
+	color:#999;
+	font-size:14px;
+	margin-left:10px;
+}
+.book-time-right{
+	float:right;
+}
+.book-time-right a{
+	line-height:80px;
+	font-size:14px;
+	color:#999;
+	display: inline-block;
+	margin-right:10px;
+}
+.book-time-right a span{
+	line-height:80px;
+	font-size:24px;	
+}
+
+.book-function{
+	width:100%;
+	height:70px;
+}
+.function-tab-item{
+	width:25%;
+	height:70px;
+	line-height:20px;
+	text-align: center;
+	display: block;
+	margin-top:16px;
+	color:#262731;	
+	float:left;
+	font-size: 14px;
+}
+.function-tab-item-icon{
+	
+	margin:5px auto;
+	display: block;
+}
+
+.my-position a,.hotel-search a{
+	color:#262731;	
+}
+.my-position a span{
+	font-size:14px;	
+	color:#999;
+	margin-left:10px;
+}
+.hotel-search a span{
+	color:#999;
+}
+
+
+
+.footer{
+	position: absolute;
+	bottom:0;
+	height:4rem;
+	width:100%;
+	box-shadow:0 -1px 2px 1px #efefef;
+}
+.bottom-item{
+	height:4rem;
+	display: block;
+	float:left;
+	width:20%;
+	text-align: center;
+	color:#b6b6b6;
+	font-size: 12px;
+}
+.footer-icon,.footer-icon-active{
+	display: block;
+	width:100%;
+	font-size:30px;
+	padding:10px 0;
+	line-height:1.5rem;
+}
+.bottom-item-active{
+	color:#5eba3d;
+	font-weight: 600;
+}

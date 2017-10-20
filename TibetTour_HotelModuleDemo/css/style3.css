@@ -1,0 +1,173 @@
+.header{
+	background:#4399fd;
+	width:100%;
+	height:4rem;
+	text-align: center;
+	line-height:4rem;
+	font-size:20px;
+	color:#fff;
+}
+.length{
+	width:25%;
+	height:3.2rem;
+	letter-spacing: 1px;
+	line-height:14px;
+	float:left;
+	font-size:12px;
+	text-align:center;
+}
+.tab{
+	position:absolute;
+	z-index: 10;
+	width:100%;
+}
+.return-button{
+	display: inline-block;
+	float: left;
+	left:20px;
+	font-size:24px;
+	position: absolute;
+}
+.jingqukuang{
+	width:100%;
+	height:35rem;;
+	overflow-y:auto;
+	z-index: 1;
+	margin-top:4rem;
+}
+.jingqubox{
+	width:90%;
+	height:10rem;
+	background:#fff;
+	border-radius:10px;
+	margin:0 auto;
+	margin-bottom:1rem;
+	box-shadow:0 4px 6px 2px #ccc;
+	position: relative;
+}
+.imgleft{
+	position:absolute;
+	height:5.5rem;
+	width:100%;
+	background:url(../fonts/hotelpic.png);
+	background-size:cover;
+	float:left;
+}
+.imgleft2{
+	position:absolute;
+	height:5.5rem;
+	width:100%;
+	background:url(../fonts/hotelimg2.png);
+	background-size:cover;
+	float:left;
+}
+.imgleft3{
+	position:absolute;
+	height:5.5rem;
+	width:100%;
+	background:url(../fonts/hotelimg3.png);
+	background-size:cover;
+	float:left;
+}
+.imgleft4{
+	position:absolute;
+	height:5.5rem;
+	width:100%;
+	background:url(../fonts/hotelimg4.png);
+	background-size:cover;
+	float:left;
+}
+.imgleft5{
+	position:absolute;
+	height:5.5rem;
+	width:100%;
+	background:url(../fonts/hotelimg5.png);
+	background-size:cover;
+	float:left;
+}
+.imgleft6{
+	position:absolute;
+	height:5.5rem;
+	width:100%;
+	background:url(../fonts/hotelimg6.png);
+	background-size:cover;
+	float:left;
+}
+.imgleft7{
+	position:absolute;
+	height:5.5rem;
+	width:100%;
+	background:url(../fonts/hotelimg7.png);
+	background-size:cover;
+	float:left;
+}
+.imgleft8{
+	position:absolute;
+	height:5.5rem;
+	width:100%;
+	background:url(../fonts/hotelpic8.png);
+	background-size:cover;
+	float:left;
+}
+.imgleft9{
+	position:absolute;
+	height:5.5rem;
+	width:100%;
+	background:url(../fonts/hotelimg9.png);
+	background-size:cover;
+	float:left;
+}
+.imgleft0{
+	position:absolute;
+	height:5.5rem;
+	width:100%;
+	background:url(../fonts/hotelimg10.png);
+	background-size:cover;
+	float:left;
+}
+.imgright{
+	position:absolute;
+	bottom:-2rem;
+	left:16px;
+	width:50%;
+	height:6rem;
+	overflow: hidden;
+}
+.imgprice{
+	position:absolute;
+	bottom:-1.5rem;
+	right:16px;
+	text-align: right;
+	width:50%;
+	height:5.5rem;
+	overflow: hidden;
+	font-size:14px;
+	padding-top:2px;
+	line-height:26px;
+}
+.imgprice a,span{
+	color:#999;
+}
+.imgprice p{
+	font-size:20px;
+	color:#ff372f;
+	font-weight: 700;
+}
+.imgright h4{
+	padding-top:6px;
+	color:#262731;
+	font-size:1.2rem;
+	font-weight: bold;
+}
+.imgright p{
+	text-align: justify;
+	height:38px;
+	padding-top:10px;
+	overflow-y: hidden;
+}
+.imgrightleft{
+	float:left;
+}
+.imgrightright{
+	float:right;
+}
